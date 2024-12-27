@@ -20,7 +20,9 @@ export const TestRequest = () => {
     <div>
       <div className={styles.row}>
         <span aria-label="Count" className={styles.value}>
-          {body}
+          {body.test}
+          <br/>
+          {body.bbb}
           <br/>
           {status}
           <br/>

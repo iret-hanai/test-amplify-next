@@ -11,12 +11,12 @@ export interface CounterSliceState {
 
 
 export type ResponseTestData = {
-  body: undefined;
+  body: {[key: string]: string;};
   status: string;
 };
 
 const initialState: ResponseTestData = {
-  body: undefined,
+  body: {},
   status: "",
 };
 
