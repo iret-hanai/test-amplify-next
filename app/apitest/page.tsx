@@ -1,11 +1,11 @@
 "use client";
-import { Counter } from "../components/counter/Counter";
+import { TestRequest } from "../components/testRequest/TestRequest";
 import { StoreProvider } from "../StoreProvider";
 
 export default function IndexPage() {
   return (
   <StoreProvider>
-    <main><Counter /></main>
+    <main><TestRequest /></main>
   </StoreProvider>
   )
 }
